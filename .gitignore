@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+*.log
+# Rebuildable source extract (downloaded by pipeline).
+data/raw/*.csv
+# Individual-level customer extract is reproducible and intentionally excluded.
+data/processed/clean_customers.csv
+# Local SQLite databases can be rebuilt.
+data/processed/*.db
