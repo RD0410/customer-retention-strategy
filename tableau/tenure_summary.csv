@@ -1,0 +1,5 @@
+tenure_band,customers,churned,monthly_charges,churned_monthly_charges,retained,churn_rate,avg_monthly_charge_churned
+0–11 months,2069,999,115979.9,66022.3,1070,0.48284195,66.09
+12–23 months,1047,309,63713.4,24143.5,738,0.29512894,78.13
+24–47 months,1624,339,106742.1,28580.5,1285,0.20874384,84.31
+48+ months,2303,222,169681.2,20384.55,2081,0.09639601,91.82

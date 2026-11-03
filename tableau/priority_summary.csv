@@ -1,0 +1,4 @@
+priority_group,customers,churned,monthly_charges,churned_monthly_charges,retained,churn_rate,avg_monthly_charge_churned
+Priority A · flexible fiber,2128,1162,185181.1,100482.0,966,0.54605263,86.47
+Priority B · other flexible,1747,493,72113.05,20365.1,1254,0.28219805,41.31
+Priority C · longer contract,3168,214,198822.45,18283.75,2954,0.06755051,85.44

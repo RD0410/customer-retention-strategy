@@ -1,0 +1,4 @@
+contract,customers,churned,monthly_charges,churned_monthly_charges,retained,churn_rate,avg_monthly_charge_churned
+Month-to-month,3875,1655,257294.15,120847.1,2220,0.42709677,73.02
+One year,1473,166,95816.6,14118.45,1307,0.11269518,85.05
+Two year,1695,48,103005.85,4165.3,1647,0.02831858,86.78

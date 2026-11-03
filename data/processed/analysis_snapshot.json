@@ -1,0 +1,293 @@
+{
+  "dataset": "IBM Telco Customer Churn · fictional sample",
+  "source_url": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+  "observed_customers": 7043,
+  "observed_churned": 1869,
+  "observed_churn_rate": 0.26536987,
+  "sum_monthly_charges": 456116.6,
+  "churned_monthly_charges": 139130.85,
+  "blank_total_charges_cleaned": 11,
+  "by": {
+    "contract": [
+      {
+        "contract": "Month-to-month",
+        "customers": 3875,
+        "churned": 1655,
+        "monthly_charges": 257294.15,
+        "churned_monthly_charges": 120847.1,
+        "retained": 2220,
+        "churn_rate": 0.42709677,
+        "avg_monthly_charge_churned": 73.02
+      },
+      {
+        "contract": "One year",
+        "customers": 1473,
+        "churned": 166,
+        "monthly_charges": 95816.6,
+        "churned_monthly_charges": 14118.45,
+        "retained": 1307,
+        "churn_rate": 0.11269518,
+        "avg_monthly_charge_churned": 85.05
+      },
+      {
+        "contract": "Two year",
+        "customers": 1695,
+        "churned": 48,
+        "monthly_charges": 103005.85,
+        "churned_monthly_charges": 4165.3,
+        "retained": 1647,
+        "churn_rate": 0.02831858,
+        "avg_monthly_charge_churned": 86.78
+      }
+    ],
+    "internet": [
+      {
+        "internet_service": "DSL",
+        "customers": 2421,
+        "churned": 459,
+        "monthly_charges": 140665.35,
+        "churned_monthly_charges": 22529.2,
+        "retained": 1962,
+        "churn_rate": 0.18959108,
+        "avg_monthly_charge_churned": 49.08
+      },
+      {
+        "internet_service": "Fiber optic",
+        "customers": 3096,
+        "churned": 1297,
+        "monthly_charges": 283284.4,
+        "churned_monthly_charges": 114300.05,
+        "retained": 1799,
+        "churn_rate": 0.41892765,
+        "avg_monthly_charge_churned": 88.13
+      },
+      {
+        "internet_service": "No",
+        "customers": 1526,
+        "churned": 113,
+        "monthly_charges": 32166.85,
+        "churned_monthly_charges": 2301.6,
+        "retained": 1413,
+        "churn_rate": 0.0740498,
+        "avg_monthly_charge_churned": 20.37
+      }
+    ],
+    "tenure": [
+      {
+        "tenure_band": "0–11 months",
+        "customers": 2069,
+        "churned": 999,
+        "monthly_charges": 115979.9,
+        "churned_monthly_charges": 66022.3,
+        "retained": 1070,
+        "churn_rate": 0.48284195,
+        "avg_monthly_charge_churned": 66.09
+      },
+      {
+        "tenure_band": "12–23 months",
+        "customers": 1047,
+        "churned": 309,
+        "monthly_charges": 63713.4,
+        "churned_monthly_charges": 24143.5,
+        "retained": 738,
+        "churn_rate": 0.29512894,
+        "avg_monthly_charge_churned": 78.13
+      },
+      {
+        "tenure_band": "24–47 months",
+        "customers": 1624,
+        "churned": 339,
+        "monthly_charges": 106742.1,
+        "churned_monthly_charges": 28580.5,
+        "retained": 1285,
+        "churn_rate": 0.20874384,
+        "avg_monthly_charge_churned": 84.31
+      },
+      {
+        "tenure_band": "48+ months",
+        "customers": 2303,
+        "churned": 222,
+        "monthly_charges": 169681.2,
+        "churned_monthly_charges": 20384.55,
+        "retained": 2081,
+        "churn_rate": 0.09639601,
+        "avg_monthly_charge_churned": 91.82
+      }
+    ],
+    "payment": [
+      {
+        "payment_method": "Bank transfer (automatic)",
+        "customers": 1544,
+        "churned": 258,
+        "monthly_charges": 103745.45,
+        "churned_monthly_charges": 20091.9,
+        "retained": 1286,
+        "churn_rate": 0.16709845,
+        "avg_monthly_charge_churned": 77.88
+      },
+      {
+        "payment_method": "Credit card (automatic)",
+        "customers": 1522,
+        "churned": 232,
+        "monthly_charges": 101231.85,
+        "churned_monthly_charges": 17946.6,
+        "retained": 1290,
+        "churn_rate": 0.15243101,
+        "avg_monthly_charge_churned": 77.36
+      },
+      {
+        "payment_method": "Electronic check",
+        "customers": 2365,
+        "churned": 1071,
+        "monthly_charges": 180345,
+        "churned_monthly_charges": 84288.75,
+        "retained": 1294,
+        "churn_rate": 0.45285412,
+        "avg_monthly_charge_churned": 78.7
+      },
+      {
+        "payment_method": "Mailed check",
+        "customers": 1612,
+        "churned": 308,
+        "monthly_charges": 70794.3,
+        "churned_monthly_charges": 16803.6,
+        "retained": 1304,
+        "churn_rate": 0.191067,
+        "avg_monthly_charge_churned": 54.56
+      }
+    ],
+    "priority": [
+      {
+        "priority_group": "Priority A · flexible fiber",
+        "customers": 2128,
+        "churned": 1162,
+        "monthly_charges": 185181.1,
+        "churned_monthly_charges": 100482.0,
+        "retained": 966,
+        "churn_rate": 0.54605263,
+        "avg_monthly_charge_churned": 86.47
+      },
+      {
+        "priority_group": "Priority B · other flexible",
+        "customers": 1747,
+        "churned": 493,
+        "monthly_charges": 72113.05,
+        "churned_monthly_charges": 20365.1,
+        "retained": 1254,
+        "churn_rate": 0.28219805,
+        "avg_monthly_charge_churned": 41.31
+      },
+      {
+        "priority_group": "Priority C · longer contract",
+        "customers": 3168,
+        "churned": 214,
+        "monthly_charges": 198822.45,
+        "churned_monthly_charges": 18283.75,
+        "retained": 2954,
+        "churn_rate": 0.06755051,
+        "avg_monthly_charge_churned": 85.44
+      }
+    ],
+    "contract_internet": [
+      {
+        "contract": "Month-to-month",
+        "internet_service": "DSL",
+        "customers": 1223,
+        "churned": 394,
+        "monthly_charges": 61418.45,
+        "churned_monthly_charges": 18367.25,
+        "retained": 829,
+        "churn_rate": 0.32215863,
+        "avg_monthly_charge_churned": 46.62
+      },
+      {
+        "contract": "Month-to-month",
+        "internet_service": "Fiber optic",
+        "customers": 2128,
+        "churned": 1162,
+        "monthly_charges": 185181.1,
+        "churned_monthly_charges": 100482.0,
+        "retained": 966,
+        "churn_rate": 0.54605263,
+        "avg_monthly_charge_churned": 86.47
+      },
+      {
+        "contract": "Month-to-month",
+        "internet_service": "No",
+        "customers": 524,
+        "churned": 99,
+        "monthly_charges": 10694.6,
+        "churned_monthly_charges": 1997.85,
+        "retained": 425,
+        "churn_rate": 0.1889313,
+        "avg_monthly_charge_churned": 20.18
+      },
+      {
+        "contract": "One year",
+        "internet_service": "DSL",
+        "customers": 570,
+        "churned": 53,
+        "monthly_charges": 34996.15,
+        "churned_monthly_charges": 3356.25,
+        "retained": 517,
+        "churn_rate": 0.09298246,
+        "avg_monthly_charge_churned": 63.33
+      },
+      {
+        "contract": "One year",
+        "internet_service": "Fiber optic",
+        "customers": 539,
+        "churned": 104,
+        "monthly_charges": 53242.15,
+        "churned_monthly_charges": 10571.95,
+        "retained": 435,
+        "churn_rate": 0.19294991,
+        "avg_monthly_charge_churned": 101.65
+      },
+      {
+        "contract": "One year",
+        "internet_service": "No",
+        "customers": 364,
+        "churned": 9,
+        "monthly_charges": 7578.3,
+        "churned_monthly_charges": 190.25,
+        "retained": 355,
+        "churn_rate": 0.02472527,
+        "avg_monthly_charge_churned": 21.14
+      },
+      {
+        "contract": "Two year",
+        "internet_service": "DSL",
+        "customers": 628,
+        "churned": 12,
+        "monthly_charges": 44250.75,
+        "churned_monthly_charges": 805.7,
+        "retained": 616,
+        "churn_rate": 0.01910828,
+        "avg_monthly_charge_churned": 67.14
+      },
+      {
+        "contract": "Two year",
+        "internet_service": "Fiber optic",
+        "customers": 429,
+        "churned": 31,
+        "monthly_charges": 44861.15,
+        "churned_monthly_charges": 3246.1,
+        "retained": 398,
+        "churn_rate": 0.07226107,
+        "avg_monthly_charge_churned": 104.71
+      },
+      {
+        "contract": "Two year",
+        "internet_service": "No",
+        "customers": 638,
+        "churned": 5,
+        "monthly_charges": 13893.95,
+        "churned_monthly_charges": 113.5,
+        "retained": 633,
+        "churn_rate": 0.00783699,
+        "avg_monthly_charge_churned": 22.7
+      }
+    ]
+  }
+}
