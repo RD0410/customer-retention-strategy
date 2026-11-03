@@ -1,0 +1,4 @@
+internet_service,customers,churned,churn_rate_pct,monthly_charges,churned_monthly_charges
+Fiber optic,3096,1297,41.89,283284.4,114300.05
+DSL,2421,459,18.96,140665.35,22529.2
+No,1526,113,7.4,32166.85,2301.6

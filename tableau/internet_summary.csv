@@ -1,4 +1,4 @@
-internet_service,customers,churned,monthly_charges,churned_monthly_charges,retained,churn_rate,avg_monthly_charge_churned
-DSL,2421,459,140665.35,22529.2,1962,0.18959108,49.08
-Fiber optic,3096,1297,283284.4,114300.05,1799,0.41892765,88.13
-No,1526,113,32166.85,2301.6,1413,0.0740498,20.37
+internet_service,customers,churned,retained,churn_rate,monthly_charges,churned_monthly_charges,avg_monthly_charge_churned
+DSL,2421,459,1962,0.18959108,140665.35,22529.2,49.08
+Fiber optic,3096,1297,1799,0.41892765,283284.4,114300.05,88.13
+No,1526,113,1413,0.0740498,32166.85,2301.6,20.37
