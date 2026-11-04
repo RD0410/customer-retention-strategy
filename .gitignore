@@ -10,3 +10,4 @@ data/raw/*.csv
 data/processed/clean_customers.csv
 # Local SQLite databases can be rebuilt.
 data/processed/*.db
+*.twbr
