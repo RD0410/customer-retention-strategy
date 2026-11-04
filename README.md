@@ -47,7 +47,7 @@ customer-retention-strategy/
 │   ├── retention_dashboard.html      # Fully interactive, offline-capable view
 │   └── customer_retention_dashboard.xlsx  # Excel dashboard + scenario model
 ├── data/
-│   ├── raw/                           # Original dataset downloaded on demand
+│   ├── raw/                           # Original dataset downloaded
 │   └── processed/
 │       └── analysis_snapshot.json     # Source-verified aggregate snapshot
 ├── docs/
@@ -144,4 +144,3 @@ The original data comes from **IBM / telco-customer-churn-on-icp4d**:
 - IBM sample documentation: https://www.ibm.com/docs/en/cognos-analytics/12.0.x?topic=samples-telco-customer-churn
 - Original code pattern license: Apache License 2.0, https://github.com/IBM/telco-customer-churn-on-icp4d/blob/master/LICENSE
 
-No third-party dashboard design or code was copied into this project. The raw CSV is not packaged in the repository archive; the reproducible downloader fetches it from IBM and checks integrity. Attribution to the data publisher is preserved.
