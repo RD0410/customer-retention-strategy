@@ -1,10 +1,18 @@
 # Customer Retention Strategy | Telecom Analytics Case Study
 
-**Business intelligence portfolio project** · SQL (SQLite) · Python · Excel · Tableau-ready CSVs · interactive HTML
+**Business intelligence portfolio project** · Tableau · SQL (SQLite) · Python · Excel · interactive HTML
 
 An independent retention-analytics case study using the **IBM Telco Customer Churn** sample. The goal is to identify where historical churn and associated monthly customer charges are concentrated, prioritize hypotheses for a retention pilot, and test the economics of a proposed intervention under clearly stated assumptions.
 
 > **Data context:** IBM's fictional telecom customer sample is a cross-sectional benchmark, not company production data. `Churn = Yes` means the customer is labeled as having departed within the last month. This project does not claim to predict individual churn, identify causal drivers, or measure real campaign ROI.
+
+## Tableau dashboard
+
+![Customer Retention Strategy — Tableau dashboard](tableau/dashboard_final.png)
+
+The Tableau dashboard presents four customer-retention KPIs, historical churn by contract type, and a contract × internet-service heatmap. It uses the validated IBM Telco sample.
+
+**Explore:** [View the dashboard screenshot](tableau/dashboard_final.png) · [Download the Tableau packaged workbook (.twbx)](tableau/Customer_Retention_Strategy.twbx) · [Read the Tableau build guide](tableau/TABLEAU_BUILD_GUIDE.md)
 
 ## At a glance
 
@@ -21,7 +29,9 @@ The last two charge figures are **descriptive sums**, not financial-statement re
 
 ## Open the dashboards
 
-**Immediately, without installing anything:**
+**Explore the deliverables:**
+
+- Open the [native Tableau packaged workbook](tableau/Customer_Retention_Strategy.twbx) in Tableau Desktop, or preview its [dashboard screenshot](tableau/dashboard_final.png).
 
 - Open [`dashboards/retention_dashboard.html`](dashboards/retention_dashboard.html) in Chrome, Safari, or another modern browser. It has a built-in, verified cohort snapshot and works offline.
 - Open [`dashboards/customer_retention_dashboard.xlsx`](dashboards/customer_retention_dashboard.xlsx) in Microsoft Excel. It contains four analytical sheets and a formula-driven scenario planner.
@@ -52,6 +62,8 @@ customer-retention-strategy/
 ├── src/
 │   └── pipeline.py
 ├── tableau/
+│   ├── Customer_Retention_Strategy.twbx  # Packaged Tableau dashboard
+│   ├── dashboard_final.png               # Screenshot for portfolio
 │   ├── contract_summary.csv
 │   ├── contract_internet_summary.csv
 │   ├── internet_summary.csv
@@ -121,7 +133,7 @@ The model is illustrative. It uses historical churn and monthly charges as a pro
 
 **Analytical contribution:** design reproducible SQL views and Python transformations; validate source data; develop interactive segment comparisons and a transparent scenario model; document limitations and pilot recommendations.
 
-**Tableau deliverable:** Import the `tableau/` CSV files or `data/processed/clean_customers.csv` after running the pipeline, then follow [`tableau/TABLEAU_BUILD_GUIDE.md`](tableau/TABLEAU_BUILD_GUIDE.md). No native `.twb` or `.twbx` file is claimed until it has been created and verified in Tableau.
+**Tableau deliverable:** Open [`tableau/Customer_Retention_Strategy.twbx`](tableau/Customer_Retention_Strategy.twbx) to explore the completed packaged dashboard. The [`tableau/TABLEAU_BUILD_GUIDE.md`](tableau/TABLEAU_BUILD_GUIDE.md) documents how to recreate its views from `data/processed/clean_customers.csv` or the provided summary extracts.
 
 ## Source and credits
 
